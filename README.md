@@ -1,2 +1,2 @@
 # Python
-This repo tracks my python data analysis coding activities.
+This repo is created to trace my python data analysis coding activities. 
