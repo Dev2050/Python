@@ -1,0 +1,12 @@
+class Car:
+	def __init__(objecti, make,model,year):
+		objecti.make=make
+		objecti.model=model
+		objecti.year=year
+	def printCar(objecti):
+		return ("Maker: " +objecti.make+ "\n" + "Model: " +objecti.model+ "\n" + "Year: " +str(objecti.year));
+		
+		arInstance=Car("Mercedes","M600 47 valves","2020")
+>>> carInstance.printCar()
+'Maker: Mercedes\nModel: M600 47 valves\nYear: 2020'
+		

@@ -1,0 +1,9 @@
+class FileReader:
+	file
+	path
+	def __init__(f_object, file, path):
+		f_object.file=file
+		f_object.path=path
+	def fileReader(f_object):
+		mime=open(f_object.file, f_object.path)
+		return mime

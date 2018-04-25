@@ -1,0 +1,21 @@
+def writePrime(x,y):
+	primeNumbers=[]
+	for i in range(x,y):
+		x=2
+		isPrime=1
+		while x<i:
+			if i%x==0:
+				isPrime=0
+				x=x+1
+			else:
+				x=x+1
+		if isPrime==1 and i!=0 and i!=1:
+			primeNumbers.append(i).append(", ")
+		else:
+			pass
+	writePrime=open("c:/users/fissha/desktop/tech/python/python_part2/prime.txt","w")
+	for i in primeNumbers:
+		writePrime.write(str(i))
+	writePrime.close()
+	writePrime=open("c:/users/fissha/desktop/tech/python/python_part2/prime.txt","r")
+	writePrime.read()
